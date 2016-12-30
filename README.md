@@ -7,3 +7,7 @@ The result of the sum dictates what the value of the cell will be in the next it
  * If the number of cells with a `1` is **odd**, the value of the cell will be `0` (represented by a `#`) in the next iteration of the matrix.
 
 If the adjacent cell to the working cell is nonexistent (outside the matrix), it uses a cell from a predestined "supercell" next to it. modifying these supercell values acts as a "seed" for the patterns that emerge over time. The dimensions of the matrix also changes the pattern and duration of the automaton.
+
+An example sequence of an 8x8 matrix with the seed `000 0 0 000`:
+
+![](https://i.imgur.com/PjwP7I2.gif)
