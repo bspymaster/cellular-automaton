@@ -1,5 +1,5 @@
 # cellular-automaton
-A small project using procedural generation to make interesting designs.
+A small project using procedural generation to make interesting designs. Inspired by [this reddit post](https://www.reddit.com/r/cellular_automata/comments/5jwz34/disappearing_patterns_and_fractals/).
 
 This script takes each existing cell in a matrix and sums up all the cells around it, including itself (9 total cells will be summed).
 The result of the sum dictates what the value of the cell will be in the next iteration:
